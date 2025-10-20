@@ -1,1 +1,24 @@
 Valamilyen űrlap téma. Adatot dolgoz fel, fájl kezeléssel. Legalább 8 adat legyen. Módosítható, felvihető, törlés, szűrés, fájlba generálás - Deadline - November vége
+
+Kidolgozás:
+	Adatok bekérése:
+		- Cím => String
+		- Műfaj => List<String>
+		- Hossz => Int (perc)
+		- Megjelenése dátuma => DateTime
+		- Szereplők (Színész - Karakter) akár többet is meg lehet adni => Dictionary
+		- Elnyert díjak => List<String>
+		- Rendezó => String
+		- Forgatókönyv író => String
+		- Zene => String
+		- Gyártó => String
+		- Korhatár => Int
+Feladatok:
+	- Felület megtervezése
+		- Film megadási felület 
+		- Módosítási / Szűrési felület 
+	- 
+
+
+	- 
+					 	
