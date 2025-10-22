@@ -18,8 +18,68 @@
                     <Label Content="Cím:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,3,0,0" VerticalAlignment="Top" Width="60"/>
                     <TextBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="51,34,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
                     <Label Content="Műfaj:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top" Width="65"/>
-                    <DatePicker Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="82,59,0,0" VerticalAlignment="Top" Width="89"/>
-                    <Label Content="Megjelenés:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,59,0,0" VerticalAlignment="Top" Width="83"/>
+                    <DatePicker Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="84,86,0,0" VerticalAlignment="Top" Width="110"/>
+                    <Label Content="Megjelenés:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,86,0,0" VerticalAlignment="Top" Width="83"/>
+                    <TextBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="51,61,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <Label Content="Hossz:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Width="65"/>
+                    <Label Content="Szereplők:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="11,112,0,0" VerticalAlignment="Top" Width="64"/>
+                    <RichTextBox Grid.ColumnSpan="2" Margin="75,115,523,128">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text=""/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <Label Content="Díjak:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="29,297,0,0" VerticalAlignment="Top" Width="64"/>
+                    <RichTextBox Grid.ColumnSpan="2" Margin="75,297,523,10">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text=""/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                    <Label Content="Rendező:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="288,3,0,0" VerticalAlignment="Top"/>
+                    <TextBox Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="351,7,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <Grid Background="#A2AED7" Grid.ColumnSpan="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0*"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox Background="#A2C9D7" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="51,7,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                        <Label Content="Cím:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,3,0,0" VerticalAlignment="Top" Width="60"/>
+                        <TextBox Background="#A2C9D7" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="51,34,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                        <Label Content="Műfaj:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top" Width="65"/>
+                        <DatePicker Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="84,86,0,0" VerticalAlignment="Top" Width="110"/>
+                        <Label Content="Megjelenés:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,86,0,0" VerticalAlignment="Top" Width="83"/>
+                        <TextBox Background="#A2C9D7" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="51,61,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                        <Label Content="Hossz:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Width="65"/>
+                        <Label Content="Szereplők:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="11,112,0,0" VerticalAlignment="Top" Width="64"/>
+                        <RichTextBox Grid.ColumnSpan="2" Margin="75,115,523,128" Background="#A2C9D7">
+                            <FlowDocument>
+                                <Paragraph>
+                                    <Run Text=""/>
+                                </Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        <Label Content="Díjak:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="29,297,0,0" VerticalAlignment="Top" Width="64"/>
+                        <RichTextBox Grid.ColumnSpan="2" Margin="75,297,523,10">
+                            <FlowDocument>
+                                <Paragraph>
+                                    <Run Text=""/>
+                                </Paragraph>
+                            </FlowDocument>
+                        </RichTextBox>
+                        <Label Content="Rendező:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="288,3,0,0" VerticalAlignment="Top"/>
+                        <TextBox Background="#A2C9D7" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="351,7,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                        <Label Content="Író:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="290,29,0,0" VerticalAlignment="Top"/>
+                        <TextBox Background="#A2C9D7" HorizontalAlignment="Center" Margin="0,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="149" Grid.Column="1"/>
+                        <Label Content="Zene:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="290,57,0,0" VerticalAlignment="Top"/>
+                        <TextBox HorizontalAlignment="Left" Margin="334,61,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" Grid.Column="1"/>
+                        <Label Content="Gyártó:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="290,85,0,0" VerticalAlignment="Top"/>
+                        <TextBox HorizontalAlignment="Left" Margin="343,89,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
+                        <Label Content="Korhatár:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="290,112,0,0" VerticalAlignment="Top"/>
+                        <TextBox HorizontalAlignment="Left" Margin="353,116,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="129" Grid.Column="1"/>
+                    </Grid>
                 </Grid>
             </TabItem>
             <TabItem Header="Módosítás/szűrés">
