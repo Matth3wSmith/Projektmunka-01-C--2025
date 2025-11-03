@@ -1,0 +1,15 @@
+C:\Users\boti.lorant.ferenc.2\source\repos\Projektmunka-01-C--2025\Dummyadatok\bin\Debug\net8.0\Dummyadatok.exe
+C:\Users\boti.lorant.ferenc.2\source\repos\Projektmunka-01-C--2025\Dummyadatok\bin\Debug\net8.0\Dummyadatok.deps.json
+C:\Users\boti.lorant.ferenc.2\source\repos\Projektmunka-01-C--2025\Dummyadatok\bin\Debug\net8.0\Dummyadatok.runtimeconfig.json
+C:\Users\boti.lorant.ferenc.2\source\repos\Projektmunka-01-C--2025\Dummyadatok\bin\Debug\net8.0\Dummyadatok.dll
+C:\Users\boti.lorant.ferenc.2\source\repos\Projektmunka-01-C--2025\Dummyadatok\bin\Debug\net8.0\Dummyadatok.pdb
+C:\Users\boti.lorant.ferenc.2\source\repos\Projektmunka-01-C--2025\Dummyadatok\obj\Debug\net8.0\Dummyadatok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\boti.lorant.ferenc.2\source\repos\Projektmunka-01-C--2025\Dummyadatok\obj\Debug\net8.0\Dummyadatok.AssemblyInfoInputs.cache
+C:\Users\boti.lorant.ferenc.2\source\repos\Projektmunka-01-C--2025\Dummyadatok\obj\Debug\net8.0\Dummyadatok.AssemblyInfo.cs
+C:\Users\boti.lorant.ferenc.2\source\repos\Projektmunka-01-C--2025\Dummyadatok\obj\Debug\net8.0\Dummyadatok.csproj.CoreCompileInputs.cache
+C:\Users\boti.lorant.ferenc.2\source\repos\Projektmunka-01-C--2025\Dummyadatok\obj\Debug\net8.0\Dummyadatok.sourcelink.json
+C:\Users\boti.lorant.ferenc.2\source\repos\Projektmunka-01-C--2025\Dummyadatok\obj\Debug\net8.0\Dummyadatok.dll
+C:\Users\boti.lorant.ferenc.2\source\repos\Projektmunka-01-C--2025\Dummyadatok\obj\Debug\net8.0\refint\Dummyadatok.dll
+C:\Users\boti.lorant.ferenc.2\source\repos\Projektmunka-01-C--2025\Dummyadatok\obj\Debug\net8.0\Dummyadatok.pdb
+C:\Users\boti.lorant.ferenc.2\source\repos\Projektmunka-01-C--2025\Dummyadatok\obj\Debug\net8.0\Dummyadatok.genruntimeconfig.cache
+C:\Users\boti.lorant.ferenc.2\source\repos\Projektmunka-01-C--2025\Dummyadatok\obj\Debug\net8.0\ref\Dummyadatok.dll

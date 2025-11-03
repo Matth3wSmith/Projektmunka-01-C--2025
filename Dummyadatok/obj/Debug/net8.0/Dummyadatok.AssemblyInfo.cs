@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dummyadatok")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e909589175354bf9df0b27a05f4265d44db403b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc4aec95c0549a2946256a95b04c721d7c20b541")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dummyadatok")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dummyadatok")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
