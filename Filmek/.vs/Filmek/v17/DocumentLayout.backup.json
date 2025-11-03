@@ -30,8 +30,8 @@
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Filmek\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\MainWindow.xaml",
-              "RelativeToolTip": "Filmek\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\MainWindow.xaml*",
+              "RelativeToolTip": "Filmek\\MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-20T10:37:46.498Z",
               "EditorCaption": ""
@@ -46,8 +46,7 @@
               "RelativeToolTip": "Filmek\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAYwBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T10:37:43.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T10:37:43.943Z"
             }
           ]
         }
