@@ -25,7 +25,7 @@
 				cim += cimSzavak[rnd.Next(0, cimSzavak.Count)];
 				cim += " ";
 			}
-			Console.WriteLine(cim);
+			
 
 			List<string> mufajai = new List<string>();
 			for(int i = 0; i < 3; i++)
@@ -69,10 +69,17 @@
             }
 
 
-			
-            Console.WriteLine(ev);
-            Console.WriteLine(honap);
-			Console.WriteLine(nap);
+			string datum = $"{ev}.{honap}.{nap}.";
+
+
+            Console.WriteLine(cim);
+
+            for (int i = 0; i < mufajai.Count; i++)
+			{
+				Console.WriteLine(mufajai[i]);
+			}
+
+            Console.WriteLine(datum);
 			
 			/*
 			for (int i = 0; i < 3; i++)
