@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{3CB7765A-0FDD-42EC-A55F-40BAF9D1D5B3}|Fajlfeldolgozas.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\projektmunka-01-c--2025\\fajlfeldolgozas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CB7765A-0FDD-42EC-A55F-40BAF9D1D5B3}|Fajlfeldolgozas.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB7765A-0FDD-42EC-A55F-40BAF9D1D5B3}|Fajlfeldolgozas.csproj|c:\\users\\kovacs.mate.22\\source\\repos\\projektmunka-01-c--2025\\fajlfeldolgozas\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB7765A-0FDD-42EC-A55F-40BAF9D1D5B3}|Fajlfeldolgozas.csproj|solutionrelative:film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Film.cs",
+              "DocumentMoniker": "C:\\Users\\kovacs.mate.22\\source\\repos\\Projektmunka-01-C--2025\\Fajlfeldolgozas\\Film.cs",
+              "RelativeDocumentMoniker": "Film.cs",
+              "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\Projektmunka-01-C--2025\\Fajlfeldolgozas\\Film.cs",
+              "RelativeToolTip": "Film.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAACMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T08:06:24.898Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,14 +41,10 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\kovacs.mate.22\\source\\repos\\Projektmunka-01-C--2025\\Fajlfeldolgozas\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T10:06:39.866Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
