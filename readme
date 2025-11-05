@@ -25,7 +25,7 @@ Feladatok:
 Az adatmezők pontosvesszővel vannak elválasztva
 cím;mufaj (mufaj1,mufaj2...);hossz;megjelenesDatum (Év.Hónap.Nap);szereplok (szereplo-szerep,szereplo-szerep...);dijak (dij1,dij2...);rendezo;forgatokonyvIro;zene;gyarto;korhatar
 
-A több elemet tartalmazó adatmezők maximum
+A több elemet tartalmazó adatmezők maximum 5
 
 
 				 	
