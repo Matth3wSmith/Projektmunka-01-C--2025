@@ -20,5 +20,29 @@ namespace Filmek
         {
             InitializeComponent();
         }
+        string cim;
+        List<string> mufaj = new List<string>();
+        int hossz;
+        DateOnly datum;
+        List<string> szereplok= new List<string>();
+        List<string> dijak= new List<string>();
+        string rendezo;
+        string zene;
+        string Gyarto;
+        string forgatoKonvIro;
+        int korhatar;
+
+
+
+        private void Bekuldes_Click(object sender, RoutedEventArgs e)
+        {
+            cim = Cim.Text;
+            Cim.Text = "";
+            hossz = int.Parse(Hossz.Text);
+            datum = DateOnly.FromDateTime(Datum.SelectedDate.Value.Date);
+            MessageBox.Show(Szereplok1.Text);
+            MessageBox.Show(String.Join(" ",Szereplok1.Text.Split("\n")));
+            
+        }
     }
 }
