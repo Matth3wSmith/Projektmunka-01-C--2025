@@ -10,7 +10,7 @@
 
 			List <string> keresztnevek = new List<string>{ "James", "John", "Robert", "Michael", "William", "David", "Richard", "Joseph", "Charles", "Thomas", "Christopher", "Daniel", "Matthew", "Anthony", "Mark", "Donald", "George", "Paul", "Steven", "Andrew", "Kenneth", "Joshua", "Kevin", "Brian", "Edward", "Ronald", "Timothy", "Jason", "Jeffrey", "Ryan", "Gary", "Nicholas", "Eric", "Stephen", "Larry", "Justin", "Scott", "Brandon", "Benjamin", "Samuel", "Gregory", "Frank", "Alexander", "Patrick", "Jack", "Dennis", "Jerry", "Tyler", "Aaron", "Henry", "Douglas", "Zachary", "Peter", "Ethan", "Walter", "Kyle", "Carl", "Arthur", "Ryan", "Roger", "Joe", "Christian", "Austin", "Jordan", "Evan", "Keith", "Carlos", "Terry", "Gerald", "Dylan", "Juan", "Jesse", "Willie", "Billy", "Bruce", "Adam", "Harry", "Alan", "Lawrence", "Nathan", "Franklin", "Raymond", "Roy", "Louis", "Bobby", "Harry", "Ralph", "Gabriel", "Wayne", "Randy", "Carlton", "Shawn", "Jackie", "Sam", "Derrick", "Glenn", "Victor", "Howard", "Johnny", "Russell", "Jordan", "Dennis", "Warren", "Marvin", "Curtis", "Morris", "Chad", "Leonard", "Arthur", "Leroy", "Clarence", "Vincent", "Keith", "Gilbert", "Leon", "Francis", "Norman", "Leo", "Oscar", "Barry", "Joel", "Benny", "Herman", "Nathaniel", "Lester", "Jackie", "Gene", "Milton", "Allan", "Ernest", "Calvin", "Lyle", "Ray", "Edwin", "Harold", "Pete", "Jim", "Terry", "Charlie", "Glenn", "Eugene", "Bob", "Dean", "Melvin", "Stanley", "Alvin", "Sidney", "Maurice", "Bert", "Claude", "Erik", "Louis", "Roderick", "Lenny", "Ivan", "Maurice", "Billy", "Marvin", "Dale", "Emmett", "Jared", "Ronnie", "Clifford", "Nash", "Kurt", "Gilbert", "Wilfred", "Milton", "Mickey", "Roland", "Felix", "Terry", "Kenny", "Reggie", "Royce", "Elmer", "Angelo", "Jules", "Clyde", "Monty", "Randall", "Ricky", "Eddie", "Quincy", "Stan", "Tommy" };
 
-			List <string> mufajok = new List<string>{ "Akció", "Kaland", "Animáció", "Képregény", "Bűnügyi", "Dokumentumfilm", "Dráma", "Romantikus", "Sci-fi", "Thriller", "Horror", "Komédia", "Művészfilm", "Történelmi", "Fantasy", "Zenei", "Western", "Szuperhős", "Sport", "War", "Tudományos", "Művészeti", "Musical", "Rejtély", "Krimi", "Kísértet", "Életrajzi", "Családi", "Felnőtt", "Szerelem", "Politikai", "Zsánerfilm", "Indie", "Csoportos", "Képregényfilm", "Romantikus vígjáték", "Pszichológiai thriller", "Tudományos fantasztikus", "Filozofikus", "Szatíra", "Paródia", "Túlélő", "Mindentudó", "Noir", "Gore", "Képregényadaptáció", "Drámai vígjáték", "Képregények", "Démoni", "Musical vígjáték", "Társadalmi dráma", "Felnőtt vígjáték", "Poszt-apokaliptikus", "Tudományos dráma", "Mítikus", "Születési történet", "Hóhér", "Hibás hős", "Tökéletes világ", "Képregényadaptáció", "Képregény vígjáték", "Gyilkosság", "Akció vígjáték", "Családi dráma", "Testvériség", "Zombis", "Romantikus dráma", "Kalandfilm", "Kreatív vígjáték", "Sötét humor", "Középiskolai dráma", "Kiborgos", "Posztmodern", "Alföldi", "Fekete komédia", "Történelmi dráma", "Börtönfilm", "Gyermekfilm", "Képregényes dráma", "Szépségverseny", "Modern városi", "Pszichodráma", "Búvárkodás", "Katona dráma", "Szerelem történet", "Film noir", "Túlvilági", "Képregényhősök", "Horror vígjáték", "Vámpíros", "Felfedezés", "Önvédelmi", "Játékfilm", "Képregényes akció", "Képregény adaptáció", "Kémfilm", "Birodalmi háborús", "Házastársi dráma", "Művészeti vígjáték", "Démoni dráma", "Képregényes vígjáték" };
+			List <string> mufajok = new List<string>{ "Akció", "Kaland", "Animáció", "Képregény", "Bűnügyi", "Dokumentumfilm", "Dráma", "Romantikus", "Sci-fi", "Thriller", "Horror", "Komédia", "Művészfilm", "Történelmi", "Fantasy", "Zenei", "Western", "Szuperhős", "Sport", "War", "Tudományos", "Művészeti", "Musical", "Rejtély", "Krimi", "Kísértet", "Életrajzi", "Családi", "Felnőtt", "Szerelem", "Politikai", "Zsánerfilm", "Indie", "Csoportos", "Képregényfilm", "Romantikus vígjáték", "Pszichológiai thriller", "Tudományos fantasztikus", "Filozofikus", "Szatíra", "Paródia", "Túlélő", "Mindentudó", "Noir", "Gore", "Képregényadaptáció", "Drámai vígjáték", "Képregények", "Démoni", "Musical vígjáték", "Társadalmi dráma", "Felnőtt vígjáték", "Poszt-apokaliptikus", "Tudományos dráma", "Mítikus", "Születési történet", "Hóhér", "Hibás hős", "Képregényadaptáció", "Képregény vígjáték", "Gyilkosság", "Akció vígjáték", "Családi dráma", "Testvériség", "Zombis", "Romantikus dráma", "Kalandfilm", "Kreatív vígjáték", "Sötét humor", "Középiskolai dráma", "Kiborgos", "Posztmodern", "Alföldi", "Fekete komédia", "Történelmi dráma", "Börtönfilm", "Gyermekfilm", "Képregényes dráma", "Szépségverseny", "Modern városi", "Pszichodráma", "Búvárkodás", "Katona dráma", "Szerelem történet", "Film noir", "Túlvilági", "Képregényhősök", "Horror vígjáték", "Vámpíros", "Felfedezés", "Önvédelmi", "Játékfilm", "Képregényes akció", "Képregény adaptáció", "Kémfilm", "Birodalmi háborús", "Házastársi dráma", "Művészeti vígjáték", "Démoni dráma", "Képregényes vígjáték" };
 
 			List <string> dijak = new List<string>{ "Academy Award", "Golden Globe", "Cannes Film Festival Palme d'Or", "BAFTA Award", "Screen Actors Guild Award", "Venice Film Festival Golden Lion", "César Award", "Critics' Choice Movie Award", "Saturn Award", "Teen Choice Award", "MTV Movie & TV Award", "Primetime Emmy Award", "Independent Spirit Award", "Tony Award", "Golden Raspberry Award", "Critics' Choice Television Award", "People's Choice Award", "Hugo Award", "Annie Award", "Berlin International Film Festival Golden Bear" };
 
@@ -18,87 +18,151 @@
 
 			Random rnd = new Random();
 
+            StreamWriter sr = new StreamWriter("filmek.txt");
 
-			string cim = "";
-			for (int i = 0; i < 3; i++)
+            for (int j = 0; j < 200; j++)
 			{
-				cim += cimSzavak[rnd.Next(0, cimSzavak.Count)];
-				cim += " ";
-			}
-			
+                string cim = "";
+                for (int i = 0; i < 3; i++)
+                {
+                    cim += cimSzavak[rnd.Next(0, cimSzavak.Count)];
+                    cim += " ";
+                }
+                cim = cim.Remove(cim.Length - 1, 1);
 
-			List<string> mufajai = new List<string>();
-			for(int i = 0; i < 3; i++)
-			{
-                int sorsoltIndex = rnd.Next(0, mufajok.Count);
-                mufajai.Add(mufajok[sorsoltIndex]);
-                mufajok.RemoveAt(sorsoltIndex);
+
+                List<string> mufajai = new List<string>();
+                for (int i = 0; i < 3; i++)
+                {
+                    int sorsoltIndex = rnd.Next(0, mufajok.Count);
+                    mufajai.Add(mufajok[sorsoltIndex]);
+                    mufajok.RemoveAt(sorsoltIndex);
+                }
+
+                for (int i = 0; i < mufajai.Count; i++)
+                {
+                    mufajok.Add(mufajai[i]);
+                }
+
+
+                int hossz = rnd.Next(0, 400);
+
+
+                string megjelenesDatum = "";
+
+                int ev = rnd.Next(1940, 2026);
+                string honap = "";
+                int honapSzam = rnd.Next(1, 13);
+
+                if (honapSzam < 10)
+                {
+                    honap = $"0{honapSzam}";
+                }
+                else
+                {
+                    honap = honapSzam.ToString();
+                }
+
+                string nap = "";
+                int napSzam = rnd.Next(1, 31);
+                if (napSzam < 10)
+                {
+                    nap = $"0{napSzam}";
+                }
+                else
+                {
+                    nap = napSzam.ToString();
+                }
+
+
+                string datum = $"{ev}.{honap}.{nap}.";
+
+
+                Console.WriteLine(cim);
+
+
+
+                for (int i = 0; i < mufajai.Count; i++)
+                {
+                    Console.WriteLine(mufajai[i]);
+                }
+
+                Console.WriteLine(datum);
+
+                string szinesz = "";
+                string szerep = "";
+
+                List<string> szineszekesSzerepek = new List<string>();
+
+                for (int i = 0; i < 5; i++)
+                {
+                    szinesz += vezeteknevek[rnd.Next(0, vezeteknevek.Count)] + " ";
+                    szinesz += keresztnevek[rnd.Next(0, keresztnevek.Count)];
+
+                    szerep += vezeteknevek[rnd.Next(0, vezeteknevek.Count)] + " ";
+                    szerep += keresztnevek[rnd.Next(0, keresztnevek.Count)];
+
+                    szineszekesSzerepek.Add($"{szinesz} - {szerep}");
+                    szerep = "";
+                    szinesz = "";
+
+                }
+
+                for (int i = 0; i < szineszekesSzerepek.Count; i++)
+                {
+                    Console.WriteLine(szineszekesSzerepek[i]);
+                }
+
+                List<string> elnyertdijak = new List<string>();
+                for (int i = 0; i < 3; i++)
+                {
+                    int sorsoltIndex = rnd.Next(0, dijak.Count);
+                    elnyertdijak.Add(dijak[sorsoltIndex]);
+                    dijak.RemoveAt(sorsoltIndex);
+                }
+
+                for (int i = 0; i < elnyertdijak.Count; i++)
+                {
+                    dijak.Add(mufajai[i]);
+                }
+
+                string dijakBeir = elnyertdijak.ToString();
+                Console.WriteLine(dijakBeir);
+                for (int i = 0; i < elnyertdijak.Count; i++)
+                {
+                    Console.WriteLine(elnyertdijak[i]);
+                }
+
+
+                string rendezo = $"{vezeteknevek[rnd.Next(0, vezeteknevek.Count)]} {keresztnevek[rnd.Next(0, keresztnevek.Count)]}";
+
+                Console.WriteLine(rendezo);
+
+                string forgatokonyvIro = $"{vezeteknevek[rnd.Next(0, vezeteknevek.Count)]} {keresztnevek[rnd.Next(0, keresztnevek.Count)]}";
+
+                Console.WriteLine(forgatokonyvIro);
+
+                string zeneszerzo = $"{vezeteknevek[rnd.Next(0, vezeteknevek.Count)]} {keresztnevek[rnd.Next(0, keresztnevek.Count)]}";
+
+                Console.WriteLine(zeneszerzo);
+
+                string gyarto = gyartok[rnd.Next(0, gyartok.Count)];
+
+                Console.WriteLine(gyarto);
+
+                List<int> korhatarok = new List<int> { 6, 12, 16, 18 };
+
+                int korhatar = korhatarok[rnd.Next(0, korhatarok.Count)];
+
+                Console.WriteLine(korhatar);
+
+                
+                sr.WriteLine($"{cim};{string.Join(",", mufajai)};{hossz};{datum};{string.Join(",", szineszekesSzerepek)};{string.Join(",", elnyertdijak)};{rendezo};{forgatokonyvIro};{zeneszerzo};{gyarto};{korhatar}");
+
             }
+            
+			sr.Close();
 
-			for(int i = 0;i < mufajai.Count;i++)
-			{
-				mufajok.Add(mufajai[i]);
-			}
-
-			int hossz = rnd.Next(0,400);
-
-			string megjelenesDatum = "";
-
-			int ev = rnd.Next(1880, 2025);
-			string honap = "";
-			int honapSzam = rnd.Next(1, 13);
-
-            if (honapSzam < 10)
-            {
-                honap = $"0{honapSzam}";
-            }
-            else
-            {
-                honap = honapSzam.ToString();
-            }
-
-            string nap = "";
-            int napSzam = rnd.Next(1, 31);
-            if (napSzam < 10)
-            {
-                nap = $"0{napSzam}";
-            }
-            else
-            {
-                nap = napSzam.ToString();
-            }
-
-
-			string datum = $"{ev}.{honap}.{nap}.";
-
-
-            Console.WriteLine(cim);
-
-            for (int i = 0; i < mufajai.Count; i++)
-			{
-				Console.WriteLine(mufajai[i]);
-			}
-
-            Console.WriteLine(datum);
-			
-			/*
-			for (int i = 0; i < 3; i++)
-			{
-				if (mufaj != temp)
-				{
-					mufajai.Add(mufaj);
-				}
-				else
-				{
-					mufaj = mufajok[rnd.Next(0, mufajok.Length)];
-				}
-				
-			}
-
-			for(int i = 0;i < mufajai.Count;i++)
-			{
-				Console.WriteLine(mufajai[i]);
-			}*/
 
 
 
@@ -106,5 +170,5 @@
 
 
 		}
-	}
+    }
 }
