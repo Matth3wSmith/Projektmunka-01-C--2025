@@ -37,5 +37,10 @@ namespace Filmek
             this.korhatar = korhatar;
 
         }
+
+        public override string ToString()
+        {
+            return $"{cim};{String.Join(",",mufaj)};{hossz};{datum.ToString()};{String.Join(",", szereplok)};{String.Join(",", dijak)};{rendezo};{forgatokonyv};{zene};{gyarto};{korhatar}";
+        }
     }
 }
