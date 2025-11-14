@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\boti.lorant.ferenc.2\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|c:\\users\\boti.lorant.ferenc.2\\source\\repos\\projektmunka-01-c--2025\\filmek\\filmek\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|solutionrelative:filmek\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|c:\\users\\boti.lorant.ferenc.2\\source\\repos\\projektmunka-01-c--2025\\filmek\\filmek\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|solutionrelative:filmek\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|c:\\users\\boti.lorant.ferenc.2\\source\\repos\\projektmunka-01-c--2025\\filmek\\filmek\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|solutionrelative:filmek\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|c:\\users\\boti.lorant.ferenc.2\\source\\repos\\projektmunka-01-c--2025\\filmek\\filmek\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|solutionrelative:filmek\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\boti.lorant.ferenc.2\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\App.xaml",
               "RelativeDocumentMoniker": "Filmek\\App.xaml",
@@ -38,25 +38,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\boti.lorant.ferenc.2\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Filmek\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\boti.lorant.ferenc.2\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\MainWindow.xaml",
               "RelativeToolTip": "Filmek\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-20T10:37:46.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T10:37:46.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\boti.lorant.ferenc.2\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Filmek\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\boti.lorant.ferenc.2\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\MainWindow.xaml.cs",
               "RelativeToolTip": "Filmek\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAjwDcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAjwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T10:37:43.943Z",
               "EditorCaption": ""
