@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\takacs.bence.22\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\takacs.bence.22\\.nuget\\packages",
+      "C:\\Users\\boti.lorant.ferenc.2\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\boti.lorant.ferenc.2\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {

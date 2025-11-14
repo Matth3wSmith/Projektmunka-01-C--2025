@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fajlfeldolgozas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d416f4136201c0270558876b7eb1ea97d145c3b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51ea271b242a69bfdd28b60967c9c8a0291b978b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fajlfeldolgozas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fajlfeldolgozas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

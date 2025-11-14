@@ -14,42 +14,30 @@
                         <ColumnDefinition Width="0*"/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <TextBox x:Name="Cim"  Background="#00246B" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="51,7,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="Cim"  Background="#00246B" Foreground="White" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="51,7,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
                     <Label Content="Cím:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,3,0,0" VerticalAlignment="Top" Width="60"/>
-                    <TextBox x:Name="Mufaj" Background="#00246B" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="51,34,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="Mufaj" Background="#00246B" Foreground="White"  Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="51,34,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
                     <Label  Content="Műfaj:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,29,0,0" VerticalAlignment="Top" Width="65"/>
-                    <DatePicker x:Name="Datum" Background="#00246B" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="84,86,0,0" VerticalAlignment="Top" Width="110"/>
+                    <DatePicker x:Name="Datum" Background="#00246B"  Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="84,86,0,0" VerticalAlignment="Top" Width="110"/>
                     <Label Content="Megjelenés:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,86,0,0" VerticalAlignment="Top" Width="83"/>
-                    <TextBox x:Name="Hossz" Background="#00246B" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="51,61,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="Hossz" Background="#00246B" Foreground="White"  Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="51,61,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
                     <Label Content="Hossz:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Width="65"/>
                     <Label Content="Szereplők:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="11,112,0,0" VerticalAlignment="Top" Width="64"/>
-                    <RichTextBox  Background="#00246B" Grid.ColumnSpan="2" Margin="75,115,523,128">
-                        <FlowDocument>
-                            <Paragraph>
-                                <Run x:Name="Szereplok"  Text=""/>
-                            </Paragraph>
-                        </FlowDocument>
-                    </RichTextBox>
+
                     <Label Content="Díjak:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="29,297,0,0" VerticalAlignment="Top" Width="64"/>
-                    <RichTextBox x:Name="Dijak" Background="#00246B" Grid.ColumnSpan="2" Margin="75,297,523,10">
-                        <FlowDocument>
-                            <Paragraph>
-                                <Run  Text=""/>
-                            </Paragraph>
-                        </FlowDocument>
-                    </RichTextBox>
                     <Label Content="Rendező:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="288,3,0,0" VerticalAlignment="Top"/>
-                    <TextBox x:Name="Rendezo" Background="#00246B" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="351,7,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="Rendezo" Background="#00246B" Foreground="White"  Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="351,7,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
                     <Label Content="Forgatókönyv író:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="248,33,0,0" VerticalAlignment="Top"/>
-                    <TextBox x:Name="forgatoKonyv" Background="#00246B" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="351,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="forgatoKonyv" Background="#00246B" Foreground="White"  Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="351,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
                     <Label Content="Zene:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="308,66,0,0" VerticalAlignment="Top"/>
-                    <TextBox x:Name="Zene" Background="#00246B" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="351,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="Zene" Background="#00246B" Foreground="White"  Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="351,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
                     <Label Content="Korhatár:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="294,130,0,0" VerticalAlignment="Top"/>
-                    <TextBox x:Name="Korhatár" Background="#00246B" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="352,134,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="Korhatar" Background="#00246B" Foreground="White"  Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="352,134,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
                     <Label Content="Gyártó:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="299,99,0,0" VerticalAlignment="Top"/>
-                    <TextBox x:Name="Gyártó" Background="#00246B" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="351,103,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-                    <Button x:Name="Bekuldes" Background="#00246B" Content="Beküldés" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="351,231,0,0" VerticalAlignment="Top" Height="85" Width="247" Click="Bekuldes_Click"/>
-                    <TextBox x:Name="Szereplok1" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="513,46,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="204" Height="146"/>
+                    <TextBox x:Name="Gyarto" Background="#00246B" Foreground="White"  Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="351,103,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <Button x:Name="Bekuldes" Background="#00246B" Foreground="White"  Content="Beküldés" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="351,231,0,0" VerticalAlignment="Top" Height="85" Width="247" Click="Bekuldes_Click"/>
+                    <TextBox x:Name="Szereplok" Background="#00246B" Foreground="White" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="75,303,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204" Height="93"/>
+                    <TextBox x:Name="Dijak" Background="#00246B" Foreground="White" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="75,117,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204" Height="146"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Módosítás/szűrés">
