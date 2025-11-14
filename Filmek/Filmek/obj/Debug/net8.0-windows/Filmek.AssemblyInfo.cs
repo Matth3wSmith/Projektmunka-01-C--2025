@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Filmek")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fcd972f93a5ec54573c6d2a55b50271f12e0978")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09f2ed77851eaf19efdc3756401d389d50a28f99")]
 [assembly: System.Reflection.AssemblyProductAttribute("Filmek")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Filmek")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
