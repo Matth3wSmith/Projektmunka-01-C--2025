@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9uJd1gi2Cpg=",
+  "dgSpecHash": "y/4jbb/WVgQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\boti.lorant.ferenc.2\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\Filmek.csproj",
+  "projectFilePath": "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\Filmek.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "message": "Problem reading the cache file C:\\Users\\boti.lorant.ferenc.2\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
-      "projectPath": "C:\\Users\\boti.lorant.ferenc.2\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\Filmek.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\boti.lorant.ferenc.2\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\Filmek.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

@@ -62,8 +62,7 @@ namespace Filmek
             forgatoKonvIro = forgatoKonyv.Text;
             korhatar = Convert.ToInt32(Korhatar.Text);
 
-            MessageBox.Show(Szereplok1.Text);
-            MessageBox.Show(String.Join(" ", Szereplok1.Text.Split("\n")));
+           
         }
 
         private void FajlbaIras(List<Film> filmek,string fajlnev)
