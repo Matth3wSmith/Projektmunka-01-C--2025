@@ -8,39 +8,21 @@ namespace Filmek
 {
     internal class Film
     {
-        public string cim;
-        public List<string> mufaj;
-        public int hossz;
-        public DateOnly datum;
-        public List<string> szereplok;
-        public List<string> dijak;
-        public string rendezo;
-        public string forgatokonyv;
-        public string zene;
-        public string gyarto;
-        public int korhatar;
+        //Cim;Műfaj;Hossz;Datum;Szereplok;Dijak;Rendezo;Forgatokonyv;Zene;Gyarto;Korhatar
+        public string Cim { get; set; }
+        public string Mufaj { get; set; }
 
-        //"Cim;Műfaj;Hossz;Datum;Szereplok;Dijak;Rendezo;Forgatokonyv;Zene;Gyarto;Korhatar"
+        public int Hossz { get; set; }
+        public DateOnly Datum { get; set; }
+        public string Szereplok { get; set; }
+        public string Dijak { get; set; }
+        public string Rendezo { get; set; }
+        public string forgatoKonyv { get; set; }
+        public string Zene {  get; set; }
+        public string Gyarto { get; set; }
+        public int Korhatar {  get; set; }
 
-        public Film(string cim, List<string> mufaj, int hossz, DateOnly datum, List<string> szereplok, List<string> dijak, string rendezo, string forgatokonyv, string zene, string gyarto, int korhatar)
-        {
-            this.cim = cim;
-            this.mufaj = mufaj;
-            this.hossz = hossz;
-            this.datum = datum;
-            this.szereplok = szereplok;
-            this.dijak = dijak;
-            this.rendezo = rendezo;
-            this.forgatokonyv = forgatokonyv;
-            this.zene = zene;
-            this.gyarto = gyarto;
-            this.korhatar = korhatar;
+       
 
-        }
-
-        public override string ToString()
-        {
-            return $"{cim};{String.Join(",",mufaj)};{hossz};{datum.ToString()};{String.Join(",", szereplok)};{String.Join(",", dijak)};{rendezo};{forgatokonyv};{zene};{gyarto};{korhatar}";
-        }
     }
 }

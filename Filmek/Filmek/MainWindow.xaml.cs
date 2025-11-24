@@ -9,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static System.Net.WebRequestMethods;
 
 namespace Filmek
 {
@@ -20,6 +21,7 @@ namespace Filmek
         public MainWindow()
         {
             InitializeComponent();
+            DummyAdatok();
         }
 
         string cim;
@@ -44,11 +46,11 @@ namespace Filmek
             datum = DateOnly.FromDateTime(Datum.SelectedDate.Value.Date);
 
             MessageBox.Show(Szereplok.Text);
-            MessageBox.Show(String.Join(" ",Szereplok.Text.Split("\n")));
+            MessageBox.Show(String.Join(" ", Szereplok.Text.Split("\n")));
 
             string[] szereplo = Szereplok.Text.Split(";");
             szereplok = szereplo.ToList();
-            
+
             string[] dij = Dijak.Text.Split(";");
             dijak = dij.ToList();
 
@@ -62,34 +64,45 @@ namespace Filmek
             forgatoKonvIro = forgatoKonyv.Text;
             korhatar = Convert.ToInt32(Korhatar.Text);
 
-           
+
         }
 
-        private void FajlbaIras(List<Film> filmek,string fajlnev)
+        private void FajlbaIras(List<Film> filmek, string fajlnev)
         {
             StreamWriter ir = new StreamWriter(fajlnev);
-            ir.WriteLine(String.Join("\n",filmek.Select(x=>x.ToString())));
+            ir.WriteLine(String.Join("\n", filmek.Select(x => x.ToString())));
             ir.Close();
         }
 
         private List<Film> Beolvasas(string fajl)
         {
-            //"Cim;Műfaj;Hossz;Datum;Szereplok;Dijak;Rendezo;Forgatokonyv;Zene;Gyarto;Korhatar"
-            //"Gyilkos gumiabroncs;horrofilm;102;2025.10.10;Nagaszaki Kimura-Abdul Kertik;Grammy-díj;Stanley Kubrick;Stanley Korrick;Zene és Tánc;Paramount;12"
             StreamReader olvas = new StreamReader(fajl);
             List<Film> filmek = new List<Film>();
 
             while (!olvas.EndOfStream)
             {
                 string[] vag = olvas.ReadLine().Split(';');
-                string[] datumvag = vag[3].Split('.');
+                string[] datumvag = vag[3].Split('.'); // Dátum külön feldolgozása
                 DateOnly datum = new DateOnly(int.Parse(datumvag[0]), int.Parse(datumvag[1]), int.Parse(datumvag[2]));
 
-                filmek.Add(new Film(vag[0], vag[1].Split(",").ToList(), int.Parse(vag[2]), datum, vag[4].Split(",").ToList(), vag[5].Split(",").ToList(), vag[6], vag[7], vag[8], vag[9], int.Parse(vag[10])));
+                filmek.Add(new Film
+                {
+                    Cim = vag[0],
+                    Mufaj = vag[1],
+                    Hossz = int.Parse(vag[2]),
+                    Datum = datum,
+                    Szereplok= vag[4],  // Színészek listájának feldolgozása
+                    Dijak = vag[5],
+                    Rendezo = vag[6],
+                    forgatoKonyv = vag[7],
+                    Zene = vag[8],
+                    Gyarto = vag[9],
+                    Korhatar = int.Parse(vag[10])
 
+                });
             }
-            return filmek;
             olvas.Close();
+            return filmek;
         }
 
 
@@ -156,7 +169,7 @@ namespace Filmek
                 }
 
                 string nap = "";
-                int napSzam = rnd.Next(1, 31);
+                int napSzam = rnd.Next(1, 28);
                 if (napSzam < 10)
                 {
                     nap = $"0{napSzam}";
@@ -255,6 +268,19 @@ namespace Filmek
 
             sr.Close();
 
+        }
+
+        private void FilmGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void FilmGrid_Loaded(object sender, RoutedEventArgs e)
+        {
+            List<Film> filmek = Beolvasas("filmek.txt");
+            
+
+            FilmGrid.ItemsSource = filmek;
         }
     }
 }

@@ -129,7 +129,7 @@
                         <DataGrid x:Name="FilmGrid"
                                   AutoGenerateColumns="True"
                                   AlternatingRowBackground="#F3F5F9"
-                                  Margin="0">
+                                  Margin="0" SelectionChanged="FilmGrid_SelectionChanged" Loaded="FilmGrid_Loaded" FrozenColumnCount="1" SelectedIndex="1">
 
                             <DataGrid.ColumnHeaderStyle>
                                 <Style TargetType="DataGridColumnHeader">
