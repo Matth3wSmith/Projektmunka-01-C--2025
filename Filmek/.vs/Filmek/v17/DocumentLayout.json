@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\",
+  "WorkspaceRootPath": "C:\\Users\\Tanulo\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|c:\\users\\takacs.bence.22\\source\\repos\\projektmunka-01-c--2025\\filmek\\filmek\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|solutionrelative:filmek\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|c:\\users\\takacs.bence.22\\source\\repos\\projektmunka-01-c--2025\\filmek\\filmek\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|solutionrelative:filmek\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|c:\\users\\takacs.bence.22\\source\\repos\\projektmunka-01-c--2025\\filmek\\filmek\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|c:\\users\\tanulo\\source\\repos\\projektmunka-01-c--2025\\filmek\\filmek\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|solutionrelative:filmek\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|c:\\users\\takacs.bence.22\\source\\repos\\projektmunka-01-c--2025\\filmek\\filmek\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|c:\\users\\tanulo\\source\\repos\\projektmunka-01-c--2025\\filmek\\filmek\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|solutionrelative:filmek\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|c:\\users\\tanulo\\source\\repos\\projektmunka-01-c--2025\\filmek\\filmek\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|solutionrelative:filmek\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|c:\\users\\tanulo\\source\\repos\\projektmunka-01-c--2025\\filmek\\filmek\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7800BD63-A512-48D9-BA3B-781908708A76}|Filmek\\Filmek.csproj|solutionrelative:filmek\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,28 +30,24 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Film.cs",
-              "DocumentMoniker": "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\Film.cs",
+              "DocumentMoniker": "C:\\Users\\Tanulo\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\Film.cs",
               "RelativeDocumentMoniker": "Filmek\\Film.cs",
-              "ToolTip": "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\Film.cs",
+              "ToolTip": "C:\\Users\\Tanulo\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\Film.cs",
               "RelativeToolTip": "Filmek\\Film.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T11:42:55.901Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\Tanulo\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\App.xaml",
               "RelativeDocumentMoniker": "Filmek\\App.xaml",
-              "ToolTip": "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\App.xaml",
+              "ToolTip": "C:\\Users\\Tanulo\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\App.xaml",
               "RelativeToolTip": "Filmek\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-03T07:35:15.344Z",
@@ -59,11 +55,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Tanulo\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Filmek\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Tanulo\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\MainWindow.xaml",
               "RelativeToolTip": "Filmek\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-24T11:51:10.073Z",
@@ -71,13 +67,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tanulo\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Filmek\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Tanulo\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\MainWindow.xaml.cs",
               "RelativeToolTip": "Filmek\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAAAF0AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAFgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T10:37:43.943Z",
               "EditorCaption": ""

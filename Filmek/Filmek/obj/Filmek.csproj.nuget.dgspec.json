@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\Filmek.csproj": {}
+    "C:\\Users\\Tanulo\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\Filmek.csproj": {}
   },
   "projects": {
-    "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\Filmek.csproj": {
+    "C:\\Users\\Tanulo\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\Filmek.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\Filmek.csproj",
+        "projectUniqueName": "C:\\Users\\Tanulo\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\Filmek.csproj",
         "projectName": "Filmek",
-        "projectPath": "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\Filmek.csproj",
-        "packagesPath": "C:\\Users\\takacs.bence.22\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\takacs.bence.22\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\obj\\",
+        "projectPath": "C:\\Users\\Tanulo\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\Filmek.csproj",
+        "packagesPath": "C:\\Users\\Tanulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tanulo\\source\\repos\\Projektmunka-01-C--2025\\Filmek\\Filmek\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\takacs.bence.22\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tanulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

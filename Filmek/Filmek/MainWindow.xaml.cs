@@ -21,26 +21,29 @@ namespace Filmek
         public MainWindow()
         {
             InitializeComponent();
-            DummyAdatok();
+            DummyAdatok(10);
         }
 
         string cim;
-        List<string> mufaj = new List<string>();
+        string mufaj;
         int hossz;
         DateOnly datum;
-        List<string> szereplok = new List<string>();
-        List<string> dijak = new List<string>();
+        string szereplok;
+        string dijak;
         string rendezo;
         string zene;
         string gyarto;
         string forgatoKonvIro;
         int korhatar;
+        List<Film> filmek = Beolvasas("filmek.txt");
+
+
 
 
 
         private void Bekuldes_Click(object sender, RoutedEventArgs e)
         {
-            cim = Cim.Text;
+            /*cim = Cim.Text;
             Cim.Text = "";
             hossz = int.Parse(Hossz.Text);
             datum = DateOnly.FromDateTime(Datum.SelectedDate.Value.Date);
@@ -48,11 +51,11 @@ namespace Filmek
             MessageBox.Show(Szereplok.Text);
             MessageBox.Show(String.Join(" ", Szereplok.Text.Split("\n")));
 
-            string[] szereplo = Szereplok.Text.Split(";");
-            szereplok = szereplo.ToList();
+             
+            szereplok = Szereplok.Text;
 
-            string[] dij = Dijak.Text.Split(";");
-            dijak = dij.ToList();
+            
+            dijak = Dijak.Text;
 
             //dijak.Select(e => MessageBox.Show(e));
 
@@ -63,7 +66,39 @@ namespace Filmek
             gyarto = Gyarto.Text;
             forgatoKonvIro = forgatoKonyv.Text;
             korhatar = Convert.ToInt32(Korhatar.Text);
+            */
+            filmek.Add(new Film
+            {
+                Cime = Cim.Text,
+                Mufaja = Mufaj.Text,
+                Hossza = int.Parse(Hossz.Text),
+                Datuma = datum,
+                Szereploi = Szereplok.Text,
+                Dijai = Dijak.Text,
+                Rendezoi = Rendezo.Text,
+                forgatoKonyv = forgatoKonyv.Text,
+                Zenei = Zene.Text,
+                Gyartoja = Gyarto.Text,
+                Korhatara = int.Parse(Korhatar.Text)
 
+            });
+            StreamWriter sr = new StreamWriter("filmek.txt");
+
+            for (int j =0; j < filmek.Count; j++)
+            {
+                
+            }
+
+            Hossz.Text = "";
+            Szereplok.Text = "";
+            Dijak.Text = "";
+            Rendezo.Text = "";
+            Zene.Text = "";
+            Gyarto.Text = "";
+            forgatoKonyv.Text = "";
+            Korhatar.Text = "";
+
+           
 
         }
 
@@ -74,7 +109,7 @@ namespace Filmek
             ir.Close();
         }
 
-        private List<Film> Beolvasas(string fajl)
+        static List<Film> Beolvasas(string fajl)
         {
             StreamReader olvas = new StreamReader(fajl);
             List<Film> filmek = new List<Film>();
@@ -84,20 +119,20 @@ namespace Filmek
                 string[] vag = olvas.ReadLine().Split(';');
                 string[] datumvag = vag[3].Split('.'); // Dátum külön feldolgozása
                 DateOnly datum = new DateOnly(int.Parse(datumvag[0]), int.Parse(datumvag[1]), int.Parse(datumvag[2]));
-
+                
                 filmek.Add(new Film
                 {
-                    Cim = vag[0],
-                    Mufaj = vag[1],
-                    Hossz = int.Parse(vag[2]),
-                    Datum = datum,
-                    Szereplok= vag[4],  // Színészek listájának feldolgozása
-                    Dijak = vag[5],
-                    Rendezo = vag[6],
+                    Cime = vag[0],
+                    Mufaja = vag[1],
+                    Hossza = int.Parse(vag[2]),
+                    Datuma = datum,
+                    Szereploi= vag[4], 
+                    Dijai = vag[5],
+                    Rendezoi = vag[6],
                     forgatoKonyv = vag[7],
-                    Zene = vag[8],
-                    Gyarto = vag[9],
-                    Korhatar = int.Parse(vag[10])
+                    Zenei = vag[8],
+                    Gyartoja = vag[9],
+                    Korhatara = int.Parse(vag[10])
 
                 });
             }
@@ -105,9 +140,9 @@ namespace Filmek
             return filmek;
         }
 
+        
 
-
-        private void DummyAdatok()
+        private void DummyAdatok( int darab)
         {
             List<string> cimSzavak = new List<string> { "Tenger", "Virág", "Hegy", "Fa", "Fény", "Szél", "Cseresznye", "Kávé", "Tükör", "Éjszaka", "Eső", "Tánc", "Tűz", "Málna", "Farkas", "Szikla", "Ló", "Csillag", "Híd", "Farkas", "Láng", "Múzeum", "Rózsa", "Zene", "Fagylalt", "Víz", "Madár", "Irány", "Hó", "Felhő", "Arany", "Csónak", "Sál", "Kép", "Láng", "Kikötő", "Ház", "Kert", "Lovas", "Vihar", "Pillangó", "Hal", "Film", "Színház", "Számítógép", "Olvasás", "Fodrász", "Öröm", "Táj", "Sütő", "Étterem", "Képzelet", "Kép", "Nyár", "Fáklya", "Esernyő", "Táska", "Papír", "Táj", "Természet", "Hópehely", "Művészet", "Légzés", "Zseblámpa", "Kamera", "Szem", "Árnyék", "Gondolat", "Barát", "Boldogság", "Friss", "Hold", "Varázslat", "Álom", "Kaland", "Erdő", "Út", "Tavasz", "Korona", "Képzelet", "Esőcsepp", "Határ", "Pillanat", "Telefon", "Nyelv", "Zsák", "Futás", "Képregény", "Láp", "Téli", "Kávézó", "Levegő", "Tej", "Mosoly", "Család", "Répa", "Képzés", "Homok", "Fényképezőgép", "Szemüveg", "Idő", "Tér", "Látás", "Tükörkép", "Könyv", "Lakás", "Fényforrás", "Hang", "Képesség", "Hűség", "Túlélés", "Piac", "Kávé", "Hóember", "Képzelet", "Napfény", "Róka", "Reggel", "Csillogás", "Állat", "Hóesés", "Távolság", "Közel", "Nevetés", "Vízesés", "Halom", "Csend", "Mozgás", "Cél", "Virágzás", "Táblázat", "Otthon", "Tükröződés", "Farkas", "Iskola", "Frissesség", "Hűvös", "Takaró", "Gázló", "Futó", "Folyó", "Szikla", "Úszás", "Bor", "Szomjúság", "Társaság", "Zöld", "Pihenés", "Növény", "Szivárvány", "Esőcsepp", "Lóhere", "Hófehérke", "Pásztor", "Hópehely", "Horgászat", "Madárfészek", "Kézműves", "Előadás", "Pálya", "Látogató", "Történet", "Naplemente", "Mese", "Házikó", "Sütőpor", "Erő", "Vízpart", "Faág", "Kémia", "Sajt", "Kávézó", "Napló", "Almás", "Pihenő", "Ág", "Patak", "Vitorlás", "Képesség", "Tábor", "Képzelet", "Téli", "Folyópart", "Törpe", "Változás", "Párna", "Rágó", "Takaró", "Hó", "Alvás", "Búza", "Kávézó", "Kuckó", "Árnyék", "Róka", "Kép", "Páfrány", "Rózsa", "Bútor", "Tükröződés" };
 
@@ -125,7 +160,7 @@ namespace Filmek
 
             StreamWriter sr = new StreamWriter("filmek.txt");
 
-            for (int j = 0; j < 200; j++)
+            for (int j = 0; j < darab; j++)
             {
                 string cim = "";
                 for (int i = 0; i < 3; i++)
@@ -277,10 +312,15 @@ namespace Filmek
 
         private void FilmGrid_Loaded(object sender, RoutedEventArgs e)
         {
-            List<Film> filmek = Beolvasas("filmek.txt");
+            
             
 
             FilmGrid.ItemsSource = filmek;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(filmek[0].Cime);
         }
     }
 }
